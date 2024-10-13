@@ -1,0 +1,49 @@
+# Multi Region VPC Code
+- In this code it has 3 VPCs each in one region and one instance in which nginx is installed with coulur game app.
+- Which will be used for Global Acceleration in Route 53
+
+## Use This Code For Windows
+- Change the AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY
+```
+$env:AWS_ACCESS_KEY_ID="PASTE THE AWS_ACCESS_KEY_ID HERE"
+$env:AWS_SECRET_ACCESS_KEY="PASTE THE AWS_SECRET_ACCESS_KEY HERE"
+$env:AWS_DEFAULT_REGION="us-east-1"
+```
+
+## Terraform Code Changes
+- Change the Keypar if Required
+
+## Below is the AWS July2024 Public Key.
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqYZ8N68h3MrIxGm+ajIacWxPr885BQReNDep5/JJqVoed32qe5sWxtE24MScqz21arXGFUCwSx43g+gOxdSStDc1thuJrdFXmBbDzNmIVHSWHiQgmaR9N04zjmiHhXk/hoswjSQimGzUwZvegHQXQjXK+4rDbEFwi+FNTbZN6IA3X2fz2iedoHPWXoWsjdz6RaEUTyYKs0PnSN5jQDf7WEeE1jfE6boPEC7OPmesugQ0iM8nt/FIZ1vLcf7IG4EgrGfKYpG64k/NcUy25gfbdkG5PtIsH8gVN2ZenmwXFccq2dCxOSqw0jLStBCX9540dT1UKBFBYPTub9Aj4wARZ
+```
+## Below is the AWS July2024 Private Key.
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAqmGfDevIdzKyMRpvmoyGnFsT6/POQUEXjQ3qefySalaHnd9q
+nubFsbRNuDEnKs9tWq1xhVAsEseN4PoDsXUkrQ3NbYbia3RV5gWw8zZiFR0lh4kI
+JmkfTdOM45oh4V5P4aLMI0kIphs1MGb3oB0F0I1yvuKw2xBcIvhTU22TeiAN19n8
+9onnaBz1l6FrI3c+kWhFE8mCrND50jeY0A3+1hHhNY3xOm6DxAuzj5nrLoENIjPJ
+7fxSGdby3H+yBuBIKxnymKRuuJPzXFMtuYH23ZBuT7SLB/IFTdmXp5sFxXHKtnQs
+TkqsNIy0rQQl/eeNHU9VCgRQWD07m/QI+MAEWQIDAQABAoIBAH5aqzQNubr8M73K
+lx2MPX/S43FGe51VAnwu58bTklmeFjD0MQPqrI3e4wxIF33eGoD2w4tUK3s51nQT
+tY1zDGHyLHifYWbC/bj6W4HiwNZbqStcaljh+L8ktgVMlvelk6QHsVAxp2JYJxfg
+JJ/vJhLF82SwhOvQtCOS+WiTiJ011hY2Ljd4CjSO3cIx/3jXKTc6i0wEtQvNXxl/
+4nplMoVA7JTZx6aOOA8PoLCTlXvyWxQeY3qeYe/KDQXRosovi/EANnHcUmePflSq
+epwKZj/n1a+81YEmaczdiMDn+j8MxuFnU8IVL9q4nu1hvKA1w0g9r00aesOCV7ho
+W+sLYUkCgYEA3HDdpsVs0qP6i9EDyVENp8rb96SHVaa8Z8rbFuiXzEFjlzjH6wMv
+HftNAANuiu47ZkqS0wk9ySz++/I13pKzTOgTg5vRDDeFwFIYlr+Z2aJ1SfAB+7dQ
+A9r4Hq+u5OmhU0IhC8KVJRKs+RA4BzVdFf1dkaPIAKKs3Yx0nNhu7OcCgYEAxd2K
+QX5J0AEHbAkBeEI7u1bEas//SVPQBHNNvPWXGkkmqwsZPpr//Kc3EgUwWRRaudgY
+WBHFCCEADgHyDIfqabwWWqqD6ShFVnd/27NqLBKMLg6sbsYanwc+BUEyY0CilBjM
+qymTJ2p5vT7N/B1MvwCBE+EPG7taI790skzMHL8CgYEAmR1oR9tfkBvH/m+q0p2S
+/5Y/HY7RVePff7R+YzYhogVVOId/DTUD+C5COJ0pniSFa7KmsyD7Io43eiat1jBN
+jECytTp4hKTYKVKcs7DYGzvlffrQVdfpIxRoPWBH+cZxgNQxAeshD0Qek0z5rcAa
+LRj0ciGx3QchTS2vHfaTbccCgYEAslHJQuMEtJ/ox3WKTI4sdNZqp/SSFsyhARHF
+MpGGvxrD7YxQEPrxzwoH+IaSnwVYCnr03ZIOJxhOi1E3ihGHsgjfgJCB10QC0T1b
+Dm4wNk305aE1x5Nj9IQ7YdLzDT34B04eTfdm9jPgSSxryVXCj7Rtn7PJwO1k/CiU
+jAfoP9MCgYBvvAgo7RHs4UC4LAhmMsu9kzEWL4aIjnyDkskj+bVYNTENdTfLZdXU
+YwQDI1gDQzuRZqv527ryFWYbEnHmGcqMt3SnyfOAvVreFc/jc5P0gKYSTpjgKkql
+CnezK1FBoN3k7b0Xbkyg1+lfOh2kWs4oye7E7ptHa1PHqR6JI8Eekg==
+-----END RSA PRIVATE KEY-----
+```
